@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.input {
+    width: 200px!important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-area {
+    margin: 20px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.attrForm {
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.attributeForm {
+    width: 45%;
+    display: flex;
+    align-items: baseline;
 }
 
-.App-link {
-  color: #61dafb;
+.subAttributeForm {
+    width: 45%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subAttributeForm .attributeInput {
+    display: flex;
+    align-items: center;
 }
+
+.classInput {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+.classes {
+    margin: 10px;
+}
+
+.classes input {
+    width: 500px;
+}
+
+.attributes {
+    margin: 10px;
+}
+
+.attributes input {
+    margin: 10px 0;
+}
+
+.addClassInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+body {
+    background-color: #f1f2f5!important;
+}
+
+.addAttrInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addAttrInput input {
+    width: 90%;
+}
+
+.addSubAttr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.anticon {
+    margin: 5px;
+}
+
